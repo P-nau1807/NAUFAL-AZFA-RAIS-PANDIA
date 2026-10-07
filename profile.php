@@ -1,6 +1,6 @@
 <?php 
 
-$pageTitle = 'Profil - Telkom University'; 
+$pageTitle = 'Profil - Telkom University Purwokerto'; 
 
 require 'includes/header.php'; 
 
@@ -12,19 +12,19 @@ require 'includes/header.php';
 
         <span class="eyebrow">Profil</span> 
 
-        <h1>Tentang proyek simulasi Telkom University</h1> 
+        <h1>Tentang Proyek Telkom University Purwokerto</h1> 
 
-        <p class="lead">Halaman ini digunakan untuk mempraktikkan struktur halaman PHP yang memakai header dan footer bersama.</p> 
+        <p class="lead">Halaman ini dibuat untuk Praktikum struktur halaman PHP yang menggunakan header dan footer bersama.</p> 
 
-        <h2>Visi pembelajaran</h2> 
-
-        <p>Mahasiswa memahami hubungan antarmuka web, logika PHP, basis data, dan version control melalui satu proyek terpadu.</p> 
+        <h2>Visi Misi Pembelajaran</h2> 
+        
+        <p>Mahasiswa dapat memahami hubungan antarmuka web, logika PHP, basis data, dan version control melalui satu proyek terpadu.</p> 
 
         <h2>Tujuan proyek</h2> 
 
-        <p>Proyek menampilkan profil, program studi, berita, serta formulir kontak. Data program studi dan berita dibaca dari database, sedangkan pesan pengguna disimpan menggunakan prepared statement.</p> 
+        <p>Proyek menampilkan profil, program studi, berita, juga formulir kontak. Data program studi dan berita dibaca dari database, sedangkan pesan pengguna disimpan menggunakan prepared statement.</p> 
 
-        <div class="alert alert-success">Konten institusi pada website ini bersifat simulasi untuk keperluan praktikum.</div> 
+        <div class="alert alert-success">Konten institusi pada website ini bersifat simulasi dan hanya untuk keperluan praktikum.</div> 
 
     </div> 
 
