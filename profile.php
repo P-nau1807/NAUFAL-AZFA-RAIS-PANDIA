@@ -30,6 +30,20 @@ require 'includes/header.php';
 
 </section> 
 
+<section class="section section-soft">
+    <div class="container">
+        <div class="section-heading">
+            <span class="eyebrow">Fokus Pembelajaran</span>
+            <h2>Yang dipelajari di praktikum ini</h2>
+        </div>
+        <ul>
+            <li>Version control dengan Git dan GitHub</li>
+            <li>Pemrograman web dengan PHP native</li>
+            <li>Pengelolaan data dengan MySQL/MariaDB</li>
+        </ul>
+    </div>
+</section>
+
 <?php require 'includes/footer.php'; ?> 
 
  
