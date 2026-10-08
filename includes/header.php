@@ -36,7 +36,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
                 <strong>Telkom University</strong> 
 
-                <small>Simulasi Company Profile</small> 
+                <small>Simulasi Company tentang kami</small> 
 
             </span> 
 
@@ -46,7 +46,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
             <a class="<?= $currentPage === 'index.php' ? 'active' : '' ?>" href="index.php">Beranda</a> 
 
-            <a class="<?= $currentPage === 'profile.php' ? 'active' : '' ?>" href="profile.php">Profil</a> 
+            <a class="<?= $currentPage === 'tentang kami.php' ? 'active' : '' ?>" href="tentang kami.php">Profil</a> 
 
             <a class="<?= $currentPage === 'programs.php' ? 'active' : '' ?>" href="programs.php">Program Studi</a> 
 
