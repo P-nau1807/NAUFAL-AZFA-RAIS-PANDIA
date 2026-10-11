@@ -36,11 +36,11 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
                 <strong>Telkom University</strong> 
 
- HEAD
-                <small>Simulasi Company tentang kampus</small> 
 
-                <small>Simulasi Company tentang kami</small> 
- conflict-navbar
+                <small>Telkom Purwokerto</small> 
+
+                <small>Simulasi Company</small> 
+
 
             </span> 
 
@@ -50,10 +50,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
             <a class="<?= $currentPage === 'index.php' ? 'active' : '' ?>" href="index.php">Beranda</a> 
 
- HEAD
-           <a class="..." href="profile.php">Profil</a>
-            
- conflict-navbar
+           <a class="<?= $currentPage === 'profile.php' ? 'active' : '' ?>" href="profile.php">Profil</a>
 
             <a class="<?= $currentPage === 'programs.php' ? 'active' : '' ?>" href="programs.php">Program Studi</a> 
 
